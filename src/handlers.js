@@ -47,7 +47,7 @@ const predictHandler = async (request, h) => {
   }
 };
 
-const getHistoryHandler = async () => {
+const getHistoryHandler = async (request, h) => {
   try {
     const history = await loadData();
 
